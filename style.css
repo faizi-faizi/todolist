@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+}
+form{
+    max-width: 450px;
+    width: 100%;
+}
+
+label{
+    display: block;
+    font-weight: 450;
+}
+
+input{
+    display: block;
+    width: 100%;
+    
+    
+}
+
+button{
+    margin-top: 8px;
+    width: 100%;
+}
+
+.errorMsg{
+    color: red;
+}
+
+.passwordInput{
+    position: relative;
+}
+
+.passwordInput span{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+}
+
+.header p{
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.list-items{
+    background-color: white;
+    list-style: none;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+.bi-check{
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+
+.bi-trash{
+    cursor: pointer;
+}
+
+.list-items:hover{
+    background-color: #E7F5E7;
+    box-shadow: 1px 1px 5px rgba(187, 187, 187, 0.3);
+}
+
+#taskList{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.completed{
+    color: rgb(148, 148, 148);
+    text-decoration: line-through;
+}
+
+
